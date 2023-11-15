@@ -1,0 +1,57 @@
+body{
+text-align: center;
+background-color: rgb(23, 50, 50);
+color: aqua;
+}
+img{
+    width:200px ;
+    height:200px ;
+    border-radius: 50%;
+    border:2px solid darkblue;
+}
+#welcome{
+    background: linear-gradient(darkblue 0%, lightblue 30%, cyan 60% , darkcyan 100%);
+    height:60% ;
+    color: darkblue;
+}
+h1{
+ font-size:50px ; 
+ font-family: 'Lobster', sans-serif; 
+ font-weight:100 ;
+ 
+}
+.line{
+    height:10px ;
+    width: 1000px; 
+    background-color: chartreuse;
+    margin:10px auto ;
+}
+.conter{
+    z-index:190 ;
+    list-style:none;
+    position: absolute;
+   top:25px ;
+   right:19px;
+   color: darkred;
+   font-weight:bolder ;
+   cursor:-webkit-zoom-in
+}
+.bob{
+    float:left ;
+    padding-top:12px; 
+padding-bottom:12px ;
+padding-left:29px ;
+padding-right:30px ;
+font-size:15px ;
+font-family: 'Lobster', sans-serif;
+}
+.bob:hover{
+ font-size:25px;
+ text-decoration:underline;   
+}
+#contact iframe{
+    width:100% ;
+}
+#contact h3{
+    display: inline;
+}
